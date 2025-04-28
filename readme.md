@@ -20,7 +20,6 @@ World Map Tracker — это веб-приложение для отслежив
 
 ```bash
 git clone https://github.com/ttumashh/world-map-tracker.git
-cd world-map-tracker
 npm install
 npm run dev
 ```
