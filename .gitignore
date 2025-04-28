@@ -1,8 +1,12 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
 # dependencies
 /node_modules
-/prisma
+
+# prisma
+/prisma/dev.db
+/prisma/migrations/
+# Оставляем prisma/schema.prisma!
+
+# yarn / pnpm stuff
 /.pnp
 .pnp.*
 .yarn/*
